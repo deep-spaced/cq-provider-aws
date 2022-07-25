@@ -6,6 +6,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.13.2](https://github.com/cloudquery/cq-provider-aws/compare/v0.13.1...v0.13.2) (2022-07-25)
+
+
+### Features
+
+* Add support for EC2 instance types ([#1278](https://github.com/cloudquery/cq-provider-aws/issues/1278)) ([b49ae24](https://github.com/cloudquery/cq-provider-aws/commit/b49ae24b4ce831c727c092bf84b6556cdc00e8a7))
+* Added lightsail instances relations ([#1266](https://github.com/cloudquery/cq-provider-aws/issues/1266)) ([d6ecaae](https://github.com/cloudquery/cq-provider-aws/commit/d6ecaae27c529e735b209354df907626f81485cb))
+
+
+### Bug Fixes
+
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/codebuild to v1.19.8 ([#1282](https://github.com/cloudquery/cq-provider-aws/issues/1282)) ([109656f](https://github.com/cloudquery/cq-provider-aws/commit/109656feed7060f9727be6738f98898b453eb3da))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/codepipeline to v1.13.8 ([#1283](https://github.com/cloudquery/cq-provider-aws/issues/1283)) ([9615bf3](https://github.com/cloudquery/cq-provider-aws/commit/9615bf3b14b35d00d5013299ac6e6c4d2a7a316e))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/cognitoidentityprovider to v1.17.3 ([#1285](https://github.com/cloudquery/cq-provider-aws/issues/1285)) ([69875b9](https://github.com/cloudquery/cq-provider-aws/commit/69875b97b19b53ec1ac258dd0526ba7a093e1495))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/dax to v1.11.8 ([#1286](https://github.com/cloudquery/cq-provider-aws/issues/1286)) ([5a4b29f](https://github.com/cloudquery/cq-provider-aws/commit/5a4b29f0c054374b1349246fad91c3ca2d02a854))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/directconnect to v1.17.8 ([#1287](https://github.com/cloudquery/cq-provider-aws/issues/1287)) ([02f4d0c](https://github.com/cloudquery/cq-provider-aws/commit/02f4d0c746a54efb7c9b4f6feffaef5f18e9db72))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/dynamodb to v1.15.9 ([#1288](https://github.com/cloudquery/cq-provider-aws/issues/1288)) ([af3b414](https://github.com/cloudquery/cq-provider-aws/commit/af3b4147309df858647170fabbd3446fd246dbf6))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/ecs to v1.18.11 ([#1290](https://github.com/cloudquery/cq-provider-aws/issues/1290)) ([7180a9d](https://github.com/cloudquery/cq-provider-aws/commit/7180a9da4f5b45952958ca0aca358dca0cfa4303))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/eks to v1.21.4 ([#1292](https://github.com/cloudquery/cq-provider-aws/issues/1292)) ([4b20c72](https://github.com/cloudquery/cq-provider-aws/commit/4b20c72da8d3553f9a6cc392a83d319892013a61))
+* **deps:** Update tubone24/update_release digest to e8cd303 ([#1281](https://github.com/cloudquery/cq-provider-aws/issues/1281)) ([409ea75](https://github.com/cloudquery/cq-provider-aws/commit/409ea75cf8954eb0623c5d9bbab13f500e654b9d))
+* Update endpoints ([#1271](https://github.com/cloudquery/cq-provider-aws/issues/1271)) ([4738faa](https://github.com/cloudquery/cq-provider-aws/commit/4738faa6e0b315552afa833aa28307f93d2c2dc9))
+
 ## [0.13.1](https://github.com/cloudquery/cq-provider-aws/compare/v0.13.0...v0.13.1) (2022-07-22)
 
 
